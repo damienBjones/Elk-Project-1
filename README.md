@@ -82,9 +82,15 @@ SSH into the control node and follow the steps below:
 - 
 https://github.com/damienBjones/Elk-Project-1/blob/main/filebeat_installation.PNG
 
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-- _Which URL do you navigate to in order to check that the ELK server is running?
+
+Copy the roles folder (linked above) and files to /etc/ansible/roles
+Update the /etc/ansible/hosts file to include the webservers IP's and ELKServer IP
+Update each configuration file with ELKServer IP
+
+
+- _Which file is the playbook? filebeat-playbook.yml 
+- Where do you copy it? /etc/anisble/roles
+- _Which file do you update to make Ansible run the playbook on a specific machine? Host file 
+- _Which URL do you navigate to in order to check that the ELK server is running? http://104.215.102.1:5601/app/kibana#/home
 
 
