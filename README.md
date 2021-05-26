@@ -79,6 +79,8 @@ SSH into the control node and follow the steps below:
 - Copy the filebeat-playbook.yml file to /etc/ansible/roles
 - Update the host file to include the ip address of your Elk machine
 - Run the playbook, and navigate to Kibana GUI. to check that the installation worked as expected.
+- 
+https://github.com/damienBjones/Elk-Project-1/blob/main/filebeat_installation.PNG
 
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_
